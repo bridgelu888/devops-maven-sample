@@ -17,6 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'bridgelu888'
         GITHUB_ACCOUNT = 'bridgelu888'
         APP_NAME = 'devops-maven-sample'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {
